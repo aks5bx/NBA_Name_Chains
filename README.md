@@ -8,10 +8,14 @@ There have been several attempts at creating the longest name in chains in the N
 My attempt instead chooses to use a relational database structure and creates links in name chains by self joining a table of NBA player names. In addition, I generate simple metrics in order to determine how useful a player name is in generating long name chains. 
 
 ## Technology Used
-I use python to handle the data processing, the table self join, and the metric generation. 
+I use python to handle the data processing, the table self join, and the metric generation. Tableau is used for a basic data visualization. 
 
 ## Metrics generated 
 - Name Points: a score for how important a name is in generating long name chains. If a name is part of many long name chains, the name receives more points. Fewer points are allotted to names that generate fewer, shorter name chains. More points the better. 
 - Name Percentile: assigns a percentile to the name points that a name earns 
 - Name Replaceability Points: Marks the replaceability of a name, if a name is more generic, it will receive more points (a higher score). If a name is less generic and less replaceable, it will receive fewer points. 
 - Replaceability Percentile: assigns a percentile to the replaceability points that a name earns
+
+## Visualization 
+A public Tableau workbook can be found at the link below: 
+https://public.tableau.com/profile/adi.srikanth#!/vizhome/NbaNames/Sheet1
