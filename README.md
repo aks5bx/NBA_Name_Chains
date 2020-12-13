@@ -1,4 +1,4 @@
-# NBA_Name_Chains
+# NBA Name Chains
 
 ## General Overview 
 There has long been a fascination amongst NBA fans to create NBA Name Chains. A name chain is a chain of names connected by a first name last name similarity. For example, Bob Taylor - Taylor James - James Will - Will O'brien would be a name chain. In this chain, the last name of a player matches the first name of the next player. 
